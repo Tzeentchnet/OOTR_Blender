@@ -1,0 +1,22 @@
+schema_version = "1.0.0"
+
+id = "oot_remake_importer"
+name = "Ocarina of Time Remake Importer"
+version = "0.6.1"
+tagline = "Import models and terrain from an Ocarina of Time NUP"
+maintainer = "OOT Remake Importer contributors"
+type = "add-on"
+
+tags = ["Import-Export"]
+platforms = ["windows-x64"]
+blender_version_min = "5.2.0"
+license = ["SPDX:MIT"]
+
+[permissions]
+files = "Read a user-selected NUP and create temporary conversion files"
+
+[build]
+paths_exclude_pattern = [
+    "__pycache__/",
+    "*.py[cod]",
+]

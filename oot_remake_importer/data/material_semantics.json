@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026-11-06.1",
+  "bfres": {
+    "minimum_major": 10,
+    "observed_version": "10.4.0"
+  },
+  "vertex_colors": {
+    "tint_parameters": [
+      "ns_param_color0",
+      "ns_param_color1"
+    ],
+    "grayscale_tolerance": 0.01,
+    "color_difference_min": 0.05,
+    "boundary_span_max": 0.02,
+    "boundary_low_max": 0.05,
+    "boundary_high_min": 0.95,
+    "varying_span_min": 0.05
+  },
+  "samplers": {
+    "_a0": {
+      "role": "base_color",
+      "mapping": "bfrass_gltf",
+      "vertex_color": "none",
+      "confidence": "verified"
+    },
+    "_a1": {
+      "role": "secondary_base_color",
+      "mapping": "blender_reconstructed",
+      "vertex_color": "control_hint",
+      "confidence": "verified",
+      "layer_blend": {
+        "attribute": "_c0",
+        "channel": "red",
+        "confidence": "observed"
+      }
+    },
+    "_albedo0": {
+      "role": "base_color",
+      "mapping": "bfrass_gltf",
+      "vertex_color": "none",
+      "confidence": "upstream"
+    },
+    "_ao0": {
+      "role": "ambient_occlusion",
+      "mapping": "bfrass_gltf",
+      "vertex_color": "none",
+      "confidence": "upstream"
+    },
+    "_e0": {
+      "role": "emission",
+      "mapping": "bfrass_gltf",
+      "vertex_color": "none",
+      "confidence": "upstream"
+    },
+    "_em0": {
+      "role": "emission",
+      "mapping": "bfrass_gltf",
+      "vertex_color": "none",
+      "confidence": "upstream"
+    },
+    "_gn0": {
+      "role": "generated_normal_or_control",
+      "mapping": "metadata_only",
+      "vertex_color": "none",
+      "confidence": "observed"
+    },
+    "_gn3": {
+      "role": "generated_normal_or_control",
+      "mapping": "metadata_only",
+      "vertex_color": "none",
+      "confidence": "observed"
+    },
+    "_mt0": {
+      "role": "metallic",
+      "mapping": "metadata_only",
+      "vertex_color": "none",
+      "confidence": "observed"
+    },
+    "_n0": {
+      "role": "normal",
+      "mapping": "bfrass_gltf",
+      "vertex_color": "none",
+      "confidence": "verified"
+    },
+    "_n1": {
+      "role": "secondary_or_detail_normal",
+      "mapping": "metadata_only",
+      "vertex_color": "none",
+      "confidence": "observed"
+    },
+    "_normal0": {
+      "role": "normal",
+      "mapping": "bfrass_gltf",
+      "vertex_color": "none",
+      "confidence": "upstream"
+    },
+    "_r0": {
+      "role": "shininess_or_roughness",
+      "mapping": "bfrass_gltf",
+      "vertex_color": "none",
+      "confidence": "upstream"
+    },
+    "_rah0": {
+      "role": "packed_roughness_ao_height",
+      "mapping": "metadata_only",
+      "vertex_color": "none",
+      "confidence": "observed"
+    },
+    "_rah1": {
+      "role": "secondary_packed_roughness_ao_height",
+      "mapping": "metadata_only",
+      "vertex_color": "none",
+      "confidence": "observed"
+    },
+    "_rgh0": {
+      "role": "roughness",
+      "mapping": "metadata_only",
+      "vertex_color": "none",
+      "confidence": "observed"
+    },
+    "_rn0": {
+      "role": "roughness",
+      "mapping": "bfrass_gltf",
+      "vertex_color": "none",
+      "confidence": "upstream"
+    },
+    "_s0": {
+      "role": "specular",
+      "mapping": "bfrass_gltf",
+      "vertex_color": "none",
+      "confidence": "upstream"
+    },
+    "_sd0": {
+      "role": "shadow_multiply",
+      "mapping": "bfrass_gltf",
+      "vertex_color": "none",
+      "confidence": "upstream"
+    },
+    "_slt0": {
+      "role": "skin_lookup_table",
+      "mapping": "metadata_only",
+      "vertex_color": "none",
+      "confidence": "observed"
+    },
+    "_tgt0": {
+      "role": "target_or_region_control",
+      "mapping": "metadata_only",
+      "vertex_color": "control_hint",
+      "confidence": "verified"
+    },
+    "_th0": {
+      "role": "thickness_or_skin_control",
+      "mapping": "metadata_only",
+      "vertex_color": "control_hint",
+      "confidence": "verified"
+    },
+    "_x0": {
+      "role": "reflection",
+      "mapping": "bfrass_gltf",
+      "vertex_color": "none",
+      "confidence": "upstream"
+    }
+  }
+}
